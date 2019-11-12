@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Disable Timeline to enhance your privacy
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows]
+"EnableActivityFeed"=dword:00000000
+"PublishUserActivities"=dword:00000000
+"UploadUserActivities"=dword:00000000

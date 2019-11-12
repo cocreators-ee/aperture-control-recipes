@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Shows the file extensions of known file types in Windows Explorer and other views
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000

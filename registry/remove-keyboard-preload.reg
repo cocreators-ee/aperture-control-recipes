@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disable automatically installing US English keyboard
+
+[-HKEY_USERS\.DEFAULT\Keyboard Layout\Preload]
+
+[-HKEY_CURRENT_USER\Keyboard Layout\Preload]

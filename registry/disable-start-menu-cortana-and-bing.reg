@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Enhance your privacy by disabling automatic Bing and Cortana searches for everything
+; you type into the Start Menu.
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+"CortanaConsent"=dword:00000000
