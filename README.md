@@ -1,4 +1,4 @@
-# Recipes for Aperture Control.
+# Recipes for Aperture Control
 
 This repository is a collection of scripts you might want in your setup of [Aperture Control](https://github.com/Lieturd/aperture-control).
 
