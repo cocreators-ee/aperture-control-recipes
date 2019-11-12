@@ -64,6 +64,8 @@ If you find any bugs or have improvement ideas in any of the scripts, please [fi
   - [registry/taskbar-tuning.reg](registry/taskbar-tuning.reg)
 - Update "Input Method Tips" to install only desired keyboard layouts
   - [ps-scripts/update-input-method-tips.ps1](ps-scripts/update-input-method-tips.ps1)
+- Manipulate PATH - add, remove, and move items to the top/bottom of user and system-wide PATH
+  - [ps-scripts/manipulate-path.ps1](ps-scripts/manipulate-path.ps1)
 
 ## How to make registry patches
 
