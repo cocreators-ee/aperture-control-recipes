@@ -22,7 +22,7 @@ Additionally these rules apply to everything contributed here:
  - Try to stick to a max line length of 88 characters, unless absolutely necessary, also in recipe comments
  - Follow the [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-Feel free to [send PRs](https://github.com/Lieturd/aperture-control-recipes/pull/new/master) to add files to `cmd-scripts`, `ps-scripts`, and `registry`. However, try to ensure the filename gives a good idea as to what it is for, and add a "plain English" explanation about it in the `README.md`. Additionally if there's any extra details you need to explain, e.g. about how to determine the correct values for some variables, do so in the file with clear instructions.
+Feel free to [send PRs](https://github.com/Lieturd/aperture-control-recipes/pull/new/master) to add files to `recipes`. However, try to ensure the filename gives a good idea as to what it is for, and add a "plain English" explanation about it in the `README.md`. Additionally if there's any extra details you need to explain, e.g. about how to determine the correct values for some variables, do so in the file with clear instructions.
 
 In PowerShell files you can include comments by prefixing the comments with `#`, so:
 
