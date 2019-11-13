@@ -20,8 +20,7 @@ function associate([string]$extension, [string]$executable) {
         cmd /c "assoc $extension=$fileType"
         cmd /c "ftype $fileType=""$executable"" ""%1"" ""%*"""
         New-PSDrive -Name HKCR -PSProvider Registry -Root HKEY_CLASSES_ROOT
-        Set-ItemProperty -Path "HKCR:\$fileType" -Name "(Default)" -Value "$fileType file" 
-    -ErrorAction Stop
+        Set-ItemProperty -Path "HKCR:\$fileType" -Name "(Default)" -Value "$fileType file" -ErrorAction Stop
 "@
     Invoke-Expression $elevated
 }
