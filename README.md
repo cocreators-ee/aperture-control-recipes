@@ -100,6 +100,11 @@ Then open the two files in e.g. [WinMerge](https://winmerge.org) (tested to be a
 Alternatively you can try to e.g. identify the changes via [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) or other such tools, or check out guides on the internet for how to perform the changes in Regedit, follow them, and then export the relevant keys.
 
 
+## Testing
+
+Trying out your recipes in a clean Windows installation such as on a VM from [https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) is a good idea.
+
+
 # License
 
 Short answer: The contents of this repository are licensed with the BSD 3-clause -license.
