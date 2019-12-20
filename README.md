@@ -12,14 +12,14 @@ If you find any bugs or have improvement ideas in any of the scripts, please [fi
 
 ## List of recipes
 
-- Set up global Git Configuration
-  - [recipes/global-git-config.cmd](recipes/global-git-config.cmd)
 - Install or update Chocolatey
   - [recipes/install-chocolatey.ps1](recipes/install-chocolatey.ps1)
 - Install a number of Chocolatey and Scoop packages at once
   - [recipes/install-packages.ps1](recipes/install-packages.ps1)
 - Install or update Scoop
   - [recipes/install-scoop.ps1](recipes/install-scoop.ps1)
+- Install Windows Subsystem for Linux + Ubuntu 18.04 LTS
+  - [recipes/install-wsl.ps1](recipes/install-wsl.ps1)
 
 **Windows settings and tweaks**
 
@@ -69,6 +69,13 @@ If you find any bugs or have improvement ideas in any of the scripts, please [fi
 - Manipulate PATH - add, remove, and move items to the top/bottom of user and system-wide PATH
   - [recipes/manipulate-path.ps1](recipes/manipulate-path.ps1)
 
+**Software configuration**
+- Set up global Git Configuration
+  - [recipes/global-git-config.cmd](recipes/global-git-config.cmd)
+- Set up pyenv-win
+  - [recipes/setup-pyenv.ps1](recipes/setup-pyenv.ps1)
+- Configure ConEmu
+  - [recipes/setup-conemu.ps1](recipes/setup-conemu.ps1)
 
 ## How to make registry patches
 
