@@ -110,3 +110,10 @@ Trying out your recipes in a clean Windows installation such as on a VM from [ht
 Short answer: The contents of this repository are licensed with the BSD 3-clause -license.
 
 Long answer: The license for this repository is in [LICENSE.md](./LICENSE.md), the other pieces of software installed by the recipes have varying other licenses that you need to be separately aware of.
+
+
+# Financial support
+
+This project has been made possible thanks to [Cocreators](https://cocreators.ee) and [Lietu](https://lietu.net). You can help us continue our open source work by supporting us on [Buy me a coffee](https://www.buymeacoffee.com/cocreators).
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cocreators)
